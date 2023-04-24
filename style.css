@@ -1,0 +1,36 @@
+.container {
+    margin: 0 auto;
+    width: 94%;
+}
+.button {
+    background-color: #24ad98;
+    color: white ;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    width: 100%;
+}
+@media only screen and (min-width: 361px) {
+    .container {
+        width:96%;
+    }
+    .button {
+        width: 100%;}
+}
+    @media only screen and (min-width:769px){
+        .container {
+            width: 720px;}
+        }
+        .button {
+            width:auto;
+        }
+    .button:hover {
+        background-color: white;
+        color:#24ad98;}
+    }
+media only screen and (min-width: 1025px) {
+    .container{
+        width:996px;
+    }
+}
